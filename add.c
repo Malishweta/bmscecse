@@ -1,4 +1,5 @@
 
+
 #include<stdio.h>
 int main()
 {
@@ -30,7 +31,7 @@ void add1()
 	{
 		printf("Try again\n");
 	}
-	printf("SUM:\n",c);
+	printf("SUM:%d\n",c);
 
 }
 void add2()
@@ -46,6 +47,6 @@ void add2()
 	{
 		printf("Try again!!!\n");
 	}
-	printf("SUM:\n",c1);
+	printf("SUM:%d\n",c1);
 	
 }
