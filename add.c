@@ -1,5 +1,3 @@
-
-
 #include<stdio.h>
 int main()
 {
@@ -38,7 +36,7 @@ void add2()
 {
 	int a1,b1,c1;
 	printf("Enter a1 and b1 values:\n");
-	scanf("%d%d",a1,b1);
+	scanf("%d%d",&a1,&b1);
 	if(a1>=20 && b1<=50)
 	{
 		c1=a1+b1;
