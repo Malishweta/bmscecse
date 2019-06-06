@@ -1,9 +1,11 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
 	int ch;
 	printf("Enter your choice:\n");
 	scanf("%d\n",&ch);
+	printf("1.add1\n2.add2\n");
 	for(;;)
 	switch(ch)
 	{
