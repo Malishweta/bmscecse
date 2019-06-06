@@ -1,10 +1,9 @@
 #include<stdio.h>
-#include<conio.h>
 int main()
 {
 	int ch;
 	printf("Enter your choice:\n");
-	scanf("%d\n",ch);
+	scanf("%d\n",&ch);
 	for(;;)
 	switch(ch)
 	{
@@ -17,7 +16,7 @@ int main()
 	}
 
 }
-int add1()
+void add1()
 {
 	int a,b,c;
 	printf("Enter a and b values:\n");
@@ -33,7 +32,7 @@ int add1()
 	printf("SUM:\n",c);
 
 }
-int add2()
+void add2()
 {
 	int a1,b1,c1;
 	printf("Enter a1 and b1 values:\n");
