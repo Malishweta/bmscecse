@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 int main()
 {
@@ -23,7 +24,7 @@ void add1()
 	scanf("%d%d",&a,&b);
 	if(a>=5 && b<=10)
 	{
-		return c=a+b;
+		 c=a+b;
 	}
 	else
 	{
@@ -39,7 +40,7 @@ void add2()
 	scanf("%d%d",a1,b1);
 	if(a1>=20 && b1<=50)
 	{
-		return c1=a1+b1;
+		c1=a1+b1;
 	}
 	else
 	{
