@@ -23,9 +23,10 @@ int main()
 void add1()
 {
 	int a,b,c;
-	printf("Enter a and b values:\n");
+	printf("Enter a and b  value:\n");
 	scanf("%d%d",&a,&b);
-	if(a>= 5)
+	
+	if(a>=10)
 	{
 		 c=a+b;
 		printf("SUM:%d\n",c);
@@ -40,11 +41,12 @@ void add1()
 void add2()
 {
 	int a1,b1,c1;
-	printf("Enter a1 and b1 values:\n");
+	printf("Enter a1 and b1 value:\n");
 	scanf("%d%d",&a1,&b1);
+	
 	if(a1>=20)
 	{
-		c1=a1+b1;
+		c1=a1+b1*2;
 		printf("SUM:%d\n",c1);
 	}
 	else
