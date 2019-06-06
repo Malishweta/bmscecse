@@ -1,5 +1,5 @@
-
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
 	int ch;
@@ -13,7 +13,7 @@ int main()
 		case 2:add2();
 			break;
 		case 3:exit(0);
-		default:printf("choice correct option!!!\n");
+		default:printf("choose correct option!!!\n");
 	}
 
 }
@@ -31,7 +31,7 @@ int add1()
 		printf("Try again\n");
 	}
 	printf("SUM:\n",c);
-	return 0;
+
 }
 int add2()
 {
@@ -47,5 +47,5 @@ int add2()
 		printf("Try again!!!\n");
 	}
 	printf("SUM:\n",c1);
-	return 0;
+	
 }
