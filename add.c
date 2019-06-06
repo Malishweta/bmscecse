@@ -1,12 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
+void add1();
+void add2();
 int main()
 {
 	int ch;
+	printf("1.add1\n2.add2\n3.Exit\n");
 	printf("Enter your choice:\n");
 	scanf("%d\n",&ch);
-	printf("1.add1\n2.add2\n");
-	for(;;)
+	
 	switch(ch)
 	{
 		case 1:add1();
@@ -26,13 +28,14 @@ void add1()
 	if(a>=5 && b<=10)
 	{
 		 c=a+b;
+		printf("SUM:%d\n",c);
+
 	}
 	else
 	{
 		printf("Try again\n");
 	}
-	printf("SUM:%d\n",c);
-
+	
 }
 void add2()
 {
@@ -42,11 +45,12 @@ void add2()
 	if(a1>=20 && b1<=50)
 	{
 		c1=a1+b1;
+		printf("SUM:%d\n",c1);
 	}
 	else
 	{
 		printf("Try again!!!\n");
 	}
-	printf("SUM:%d\n",c1);
+	
 	
 }
